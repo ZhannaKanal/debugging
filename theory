@@ -18,3 +18,7 @@ const developerObj = {
 };
 developerObj.map()
 result developerObj.map is not a function, cause map method is used for arrays, not objects
+Last is RangeError happens when your code tries to use a value that's outside the range of what JS can handle. 
+const arr = [];
+arr.length = -1; 
+since array's length has to be a non-negative integer, setting it to -1 triggers a RangeError.
