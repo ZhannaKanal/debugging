@@ -6,3 +6,7 @@ const arr = ["Beau", "Quincy" "Tom"] // each array element needs to be separated
 A ReferenceError has several reasons, first of it would be not defined variables.
 console.log(price); // Reference error
 we want log price var, but it hasnt been defined.
+Another is trying to access a variable, declared with const and let, before it has been defined.
+console.log(b);
+const b = 50;
+result Cannot access "b" before initialization.
