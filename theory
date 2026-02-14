@@ -10,3 +10,11 @@ Another is trying to access a variable, declared with const and let, before it h
 console.log(b);
 const b = 50;
 result Cannot access "b" before initialization.
+Third is TypeError occur when you try to perform an operation on the wrong type.
+const developerObj = {
+  name: "Jessica",
+  country: "USA",
+  isEmployed: true
+};
+developerObj.map()
+result developerObj.map is not a function, cause map method is used for arrays, not objects
