@@ -1,4 +1,8 @@
 JavaScript Errors
 
 A SyntaxError happens when you write something incorrectly in your code, like missing a paranthesis, or a bracket. Think of it like a grammar mistake in a sentence. 
-const arr = ["Beau", "Quincy" "Tom"]
+const arr = ["Beau", "Quincy" "Tom"] // each array element needs to be separated by a comma otherwise it will result in an error message.
+
+A ReferenceError has several reasons, first of it would be not defined variables.
+console.log(price); // Reference error
+we want log price var, but it hasnt been defined.
