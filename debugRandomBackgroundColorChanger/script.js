@@ -16,3 +16,8 @@ const darkColorsArr = [
     return randomIndex;
   }
   console.log(getRandomIndex())
+  
+  const body = document.querySelector("body");
+  const bgHexCodeSpanElement = document.querySelector("#bg-hex-code");
+  console.log(bgHexCodeSpanElement)
+  
