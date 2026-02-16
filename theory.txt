@@ -78,3 +78,10 @@ When used correctly, the debugger statement can save you a lot of time trying to
 JS executes your code from top to bottom. 
 While JS executes your code and hits a debugger statement, it immediately pauses execution at that line.
 This gives you the chance to inspect variables, check functions, and the flow of the code in general.
+To use debugger statement your browser's developer tool should be open, otherwise the statement is ignored, and the code continues to run as usual.
+let firstNumber = 5;
+let secondNumber = 10;
+debugger; // Code execution pauses here
+let sum = firstNumber+secondNumber;
+console.log(sum)
+//if you don't have console open before code runs, it returns 15, otherwise the execution is paused for you, so you can inspect the code.
