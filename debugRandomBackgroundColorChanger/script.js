@@ -15,3 +15,4 @@ const darkColorsArr = [
     const randomIndex = Math.floor(darkColorsArr.length * Math.random());
     return randomIndex;
   }
+  console.log(getRandomIndex())
