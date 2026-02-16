@@ -105,3 +105,12 @@ You loop 10,000 users but bug happens only for one.
 Right click → Add conditional breakpoint
 user.id === 8421
 Boom — jumps directly to the broken case.
+
+When to use what
+Logic wrong --	Breakpoint
+Rare bug --	Conditional breakpoint
+Value changing --	Watch
+Site slow --	Performance
+API error	-- Network
+Arrays --	console.table
+DOM object --	console.dir
