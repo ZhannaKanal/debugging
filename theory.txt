@@ -43,3 +43,7 @@ function divide(numerator, denominator){
   }
   return numerator / denominator;
 }
+
+try...catch...finally
+The try block is used to wrap code that might throw an error.
+It acts as a safe space to try something that could fail.
