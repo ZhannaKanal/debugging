@@ -86,3 +86,14 @@ let sum = firstNumber+secondNumber;
 console.log(sum)
 //if you don't have console open before code runs, it returns 15, otherwise the execution is paused for you, so you can inspect the code.
 If you reload the page with the console opened, you'll see that the page keeps reloading, confirming that the execution of the code is only paused, not stopped. If you want the execution to continue, you can click the play button
+
+Advanced JS Debugging Tecchniques
+console.log()
+With Browser DevTools
+
+Breakpoints — “pause the program”
+How you use it
+Open DevTools → Sources
+Click the line number
+Refresh page
+The code stops there.
