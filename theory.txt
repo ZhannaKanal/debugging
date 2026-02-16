@@ -66,3 +66,8 @@ try{
 }catch(error){
   console.error("Error occured:", error.message);
 }
+
+A good use case for the finally statement is if you were working with files.
+In Js, you can open a file, use a try block to write data to the file. 
+If there are any errors, you can use the catch to catch those errors. 
+Then use the finally statement to close the file.
