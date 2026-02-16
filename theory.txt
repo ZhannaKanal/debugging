@@ -47,3 +47,5 @@ function divide(numerator, denominator){
 try...catch...finally
 The try block is used to wrap code that might throw an error.
 It acts as a safe space to try something that could fail.
+The catch block captures and handles errors that occur in the try block.
+You can use the Error object inside catch to inspect what went wrong.
