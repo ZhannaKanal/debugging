@@ -11,3 +11,7 @@ const darkColorsArr = [
     "#800020",
   ];
   
+  function getRandomIndex() {
+    const randomIndex = Math.floor(darkColorsArr.length * Math.random());
+    return randomIndex;
+  }
