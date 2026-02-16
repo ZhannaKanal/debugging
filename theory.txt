@@ -22,3 +22,24 @@ Last is RangeError happens when your code tries to use a value that's outside th
 const arr = [];
 arr.length = -1; 
 since array's length has to be a non-negative integer, setting it to -1 triggers a RangeError.
+
+Throw Statement 
+is used to throw a user defined exception.
+An exception in programming, is when an unexpected event happens and disrupts the normal flow of the program.
+Basic Syntax:
+throw expression;
+The excetion inthis case would be the object or value that represents the exception you want to throw.
+Example of this would be the build in exception classes like the Error, TypeError or RangeError class.
+function validateNumber(input){
+  if(typeof input !== "number"){
+    throw new TypeError("Expected a number, but recieved " + typeof input);
+  }
+  return input * 2;
+}
+
+function divide(numerator, denominator){
+  if(denominator === 0){
+    throw new Error("Cannot divide by zero");
+  }
+  return numerator / denominator;
+}
