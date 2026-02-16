@@ -51,3 +51,18 @@ The catch block captures and handles errors that occur in the try block.
 You can use the Error object inside catch to inspect what went wrong.
 The finally block runs after the try and catch blocks, regardless of whether an error occured.
 It's commonly used for cleanup tasks, such as closing files or releasing resources.
+
+function processInput(input){
+  if(typeof input !== "string"){
+    throw new TypeError("Input must be a string.")
+  }
+
+  return input.toUpperCase();
+}
+try{
+  console.log("Starting to process input...");
+  const result = processInput(9);
+  console.log("Processed result:", result);
+}catch(error){
+  console.error("Error occured:", error.message);
+}
