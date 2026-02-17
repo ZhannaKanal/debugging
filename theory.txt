@@ -106,6 +106,13 @@ Right click → Add conditional breakpoint
 user.id === 8421
 Boom — jumps directly to the broken case.
 
+Breakpoints: Breakpoints let you pause the execution of your code at a specific line of your choice. After the pause, you can inspect variables, evaluate expressions, and examine the call stack.
+Watchers: Watch expressions lets you monitor the values of variables or expressions as the code runs even if they are out of the current scope.
+Profiling: Profiling helps you identify performance bottlenecks by letting you capture screenshots and record CPU usage, function calls, and execution time.
+console.dir(): This method is used to display an interactive list of the properties of a specified JavaScript object. It outputs a hierarchical listing that can be expanded to see all nested properties.
+console.dir(document);
+console.table(): This method displays tabular data as a table in the console. It takes one mandatory argument, which must be an array or an object, and one optional argument to specify which properties (columns) to display.
+
 When to use what
 Logic wrong --	Breakpoint
 Rare bug --	Conditional breakpoint
